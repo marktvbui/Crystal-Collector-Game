@@ -1,0 +1,66 @@
+header {
+  color: white;
+  background-color: orange;
+  font-size: 50px;
+  max-width: 400px;
+  padding: 20px 0 20px 0;
+  margin: 10px;
+}
+section {
+  color: green;
+  background-color: yellow;
+  max-width: 600px;
+  min-height: 500px;
+  margin: 10px;
+  padding-top: 15px;
+}
+body {
+  max-width: 600px;
+}
+.container {
+  min-height: 200px;
+}
+.targetedScore {
+  margin: 10px;
+  min-height: 150px;
+  float: left;
+  width: 60%;
+  height: 50%;
+  background-color: green;
+}
+.stats {
+  min-width: 150px;
+  height: 50%;
+  float: left;
+  background-color: blue;
+  margin: 10px;
+  padding-top: 33px;
+  padding-bottom: 34px;
+}
+.images {
+  margin: 10px;
+  float: left;
+
+}
+.image {
+  height: 130px;
+  width: 130px;
+}
+.score {
+  float: left;
+  min-width: 450px;
+  margin: 15px;
+  background-color: blue;
+  padding: 10px;
+  color: white;
+}
+.userScore {
+  float: left;
+  min-width: 450px;
+  margin: 15px;
+  height: 150px;
+  background-color: blue;
+  padding: 10px;
+  color: white;
+}
+
