@@ -47,7 +47,7 @@ body {
   height: 130px;
   width: 130px;
 }
-.score {
+#score {
   float: left;
   min-width: 450px;
   margin: 15px;
