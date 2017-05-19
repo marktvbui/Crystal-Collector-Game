@@ -11,33 +11,33 @@ var image4 = Math.floor(Math.random() * (12 - 1)) + 1;
 
   function addValue1() {
     userScore += image1;
-    console.log(userScore);
+    console.log('user score1: ' + userScore);
   }
   function addValue2() {
     userScore += image2;
-    console.log(userScore);
+    console.log('user score2: ' + userScore);
   }
   function addValue3() {
     userScore += image3;
-    console.log(userScore);
+    console.log('user score3: ' + userScore);
   }
   function addValue4() {
     userScore += image4;
-    console.log(userScore);
+    console.log('user score4: ' + userScore);
   }
   function showTargetedScore() {
   $('#targetedScore').text(winningNumber);
-  console.log(winningNumber);
+  console.log('winning number: ' + winningNumber);
   }
 
   function score() {
     if (userScore === winningNumber) {
       wins++;
-      console.log(wins);
+      console.log('wins: ' + wins);
     }
     else if (userScore > winningNumber) {
       losses++;
-      console.log(losses);
+      console.log('loses: ' + losses);
     }
   }
   function userScore1() {
@@ -46,8 +46,9 @@ var image4 = Math.floor(Math.random() * (12 - 1)) + 1;
   }
   function printScore() {
     $('#score').text('Your total score is: ' + userScore);
-    console.log(userScore);
+    console.log('printscore user score: ' + userScore);
   }
+  showTargetedScore();
   score();
   printScore();
   userScore1();

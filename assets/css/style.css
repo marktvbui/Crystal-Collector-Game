@@ -21,7 +21,7 @@ body {
 .container {
   min-height: 200px;
 }
-.targetedScore {
+#targetedScore {
   margin: 10px;
   min-height: 150px;
   float: left;
