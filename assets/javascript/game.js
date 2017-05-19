@@ -41,8 +41,10 @@ var image4 = Math.floor(Math.random() * (12 - 1)) + 1;
     }
   }
   function userScore1() {
-    $("#wins").text(wins);
-    $("#losses").text(losses);
+    $("#wins").text('wins: ' + wins);
+    console.log('wins: ' + wins);
+    $("#losses").text('losses: ' + losses);
+    console.log('losses: ' + losses);
   }
   function printScore() {
     $('#score').text('Your total score is: ' + userScore);
